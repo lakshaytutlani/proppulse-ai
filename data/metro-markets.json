@@ -1,0 +1,782 @@
+{
+  "_meta": {
+    "title": "PropPulse AI seed micro-market dataset",
+    "data_quality": "APPROXIMATE ESTIMATES — compiled for MVP/demo purposes from general market knowledge. Not verified. Do not use for transactions without checking current listings, circle rates, RERA and official project timelines.",
+    "as_of": "2025 (approximate)",
+    "units": {
+      "price": "INR per sq.ft. (super built-up for NCR/Bengaluru/Hyderabad/Pune; carpet for Mumbai)",
+      "rent": "INR per month",
+      "maintenance": "INR per sq.ft. per month",
+      "infra_status": "operational | under_construction | approved | proposed"
+    }
+  },
+  "markets": [
+    {
+      "city": "Delhi NCR",
+      "state": "Haryana",
+      "locality": "Dwarka Expressway (Gurugram)",
+      "slug": "dwarka-expressway",
+      "avg_price_sqft": 13500,
+      "avg_2bhk_rent": 32000,
+      "avg_3bhk_rent": 45000,
+      "typical_2bhk_sqft": 1250,
+      "typical_3bhk_sqft": 1750,
+      "avg_plot_price_sqft": null,
+      "maintenance_per_sqft_month": 4.5,
+      "price_cagr_5y_pct": 14,
+      "gross_rental_yield_pct": 2.28,
+      "livability_score": 7.2,
+      "supply_risk": "high",
+      "key_builders": [
+        "DLF",
+        "Sobha",
+        "Godrej Properties",
+        "M3M",
+        "Signature Global"
+      ],
+      "upcoming_infra": [
+        {
+          "name": "Dwarka Expressway (full stretch incl. Delhi section)",
+          "type": "expressway",
+          "expected_year": 2024,
+          "status": "operational"
+        },
+        {
+          "name": "Gurugram Metro: Millennium City Centre – Cyber City loop",
+          "type": "metro",
+          "expected_year": 2029,
+          "status": "under_construction"
+        },
+        {
+          "name": "Global City (integrated business district)",
+          "type": "commercial_hub",
+          "expected_year": 2030,
+          "status": "approved"
+        },
+        {
+          "name": "IGI Airport Terminal / Yashobhoomi convention zone access",
+          "type": "airport",
+          "expected_year": 2025,
+          "status": "operational"
+        }
+      ],
+      "notes": "Fastest price appreciation in NCR since 2021; heavy new launch pipeline. Water supply and last-mile connectivity still maturing."
+    },
+    {
+      "city": "Delhi NCR",
+      "state": "Uttar Pradesh",
+      "locality": "Noida Sector 150",
+      "slug": "noida-sector-150",
+      "avg_price_sqft": 11000,
+      "avg_2bhk_rent": 26000,
+      "avg_3bhk_rent": 36000,
+      "typical_2bhk_sqft": 1300,
+      "typical_3bhk_sqft": 1800,
+      "avg_plot_price_sqft": null,
+      "maintenance_per_sqft_month": 3.5,
+      "price_cagr_5y_pct": 11,
+      "gross_rental_yield_pct": 2.18,
+      "livability_score": 7.8,
+      "supply_risk": "medium",
+      "key_builders": [
+        "ACE Group",
+        "Godrej Properties",
+        "Tata Housing",
+        "ATS",
+        "Prateek"
+      ],
+      "upcoming_infra": [
+        {
+          "name": "Noida International Airport, Jewar (Phase 1)",
+          "type": "airport",
+          "expected_year": 2026,
+          "status": "under_construction"
+        },
+        {
+          "name": "Noida–Greater Noida Expressway widening",
+          "type": "expressway",
+          "expected_year": 2026,
+          "status": "under_construction"
+        },
+        {
+          "name": "Aqua Line extension (Sector 142 – Botanical Garden)",
+          "type": "metro",
+          "expected_year": 2028,
+          "status": "approved"
+        },
+        {
+          "name": "Film City / YEIDA industrial corridor",
+          "type": "commercial_hub",
+          "expected_year": 2029,
+          "status": "proposed"
+        }
+      ],
+      "notes": "Low-density sports-city sector with large green cover; rental demand thinner than central Noida."
+    },
+    {
+      "city": "Delhi NCR",
+      "state": "Haryana",
+      "locality": "Golf Course Extension Road (Gurugram)",
+      "slug": "golf-course-extension-road",
+      "avg_price_sqft": 16500,
+      "avg_2bhk_rent": 38000,
+      "avg_3bhk_rent": 55000,
+      "typical_2bhk_sqft": 1300,
+      "typical_3bhk_sqft": 1850,
+      "avg_plot_price_sqft": null,
+      "maintenance_per_sqft_month": 5,
+      "price_cagr_5y_pct": 13,
+      "gross_rental_yield_pct": 2.13,
+      "livability_score": 8.1,
+      "supply_risk": "medium",
+      "key_builders": [
+        "DLF",
+        "M3M",
+        "Emaar",
+        "Adani Realty",
+        "Smartworld"
+      ],
+      "upcoming_infra": [
+        {
+          "name": "Southern Peripheral Road (SPR) upgrades",
+          "type": "expressway",
+          "expected_year": 2026,
+          "status": "under_construction"
+        },
+        {
+          "name": "Gurugram Metro: Sector 56 – Pachgaon corridor",
+          "type": "metro",
+          "expected_year": 2030,
+          "status": "approved"
+        },
+        {
+          "name": "Sohna Elevated Road",
+          "type": "expressway",
+          "expected_year": 2021,
+          "status": "operational"
+        }
+      ],
+      "notes": "Premium luxury corridor; strong expat/CXO rental demand but entry ticket is high."
+    },
+    {
+      "city": "Delhi NCR",
+      "state": "Uttar Pradesh",
+      "locality": "Greater Noida West",
+      "slug": "greater-noida-west",
+      "avg_price_sqft": 7200,
+      "avg_2bhk_rent": 17000,
+      "avg_3bhk_rent": 22000,
+      "typical_2bhk_sqft": 1100,
+      "typical_3bhk_sqft": 1500,
+      "avg_plot_price_sqft": null,
+      "maintenance_per_sqft_month": 2.8,
+      "price_cagr_5y_pct": 10,
+      "gross_rental_yield_pct": 2.58,
+      "livability_score": 6.6,
+      "supply_risk": "high",
+      "key_builders": [
+        "Gaurs",
+        "Mahagun",
+        "Supertech (stalled projects)",
+        "Ajnara",
+        "Nirala"
+      ],
+      "upcoming_infra": [
+        {
+          "name": "Aqua Line extension to Greater Noida West",
+          "type": "metro",
+          "expected_year": 2029,
+          "status": "approved"
+        },
+        {
+          "name": "FNG Expressway (Faridabad–Noida–Ghaziabad) link",
+          "type": "expressway",
+          "expected_year": 2027,
+          "status": "under_construction"
+        }
+      ],
+      "notes": "Affordable mid-segment hub; history of delayed/stalled projects — RERA due diligence critical."
+    },
+    {
+      "city": "Bengaluru",
+      "state": "Karnataka",
+      "locality": "Whitefield",
+      "slug": "whitefield",
+      "avg_price_sqft": 11500,
+      "avg_2bhk_rent": 32000,
+      "avg_3bhk_rent": 45000,
+      "typical_2bhk_sqft": 1200,
+      "typical_3bhk_sqft": 1650,
+      "avg_plot_price_sqft": null,
+      "maintenance_per_sqft_month": 4,
+      "price_cagr_5y_pct": 9,
+      "gross_rental_yield_pct": 2.78,
+      "livability_score": 7.4,
+      "supply_risk": "medium",
+      "key_builders": [
+        "Prestige",
+        "Brigade",
+        "Sobha",
+        "Godrej Properties",
+        "Puravankara"
+      ],
+      "upcoming_infra": [
+        {
+          "name": "Purple Line extension to Whitefield (KR Puram – Whitefield)",
+          "type": "metro",
+          "expected_year": 2023,
+          "status": "operational"
+        },
+        {
+          "name": "Satellite Town Ring Road (STRR)",
+          "type": "expressway",
+          "expected_year": 2027,
+          "status": "under_construction"
+        },
+        {
+          "name": "Peripheral Ring Road (PRR)",
+          "type": "expressway",
+          "expected_year": 2030,
+          "status": "approved"
+        }
+      ],
+      "notes": "Mature IT hub (ITPL, EPIP); strong rental absorption. Traffic on Varthur/Hope Farm junctions remains a pain point."
+    },
+    {
+      "city": "Bengaluru",
+      "state": "Karnataka",
+      "locality": "Sarjapur Road",
+      "slug": "sarjapur-road",
+      "avg_price_sqft": 10000,
+      "avg_2bhk_rent": 30000,
+      "avg_3bhk_rent": 42000,
+      "typical_2bhk_sqft": 1200,
+      "typical_3bhk_sqft": 1650,
+      "avg_plot_price_sqft": 7500,
+      "maintenance_per_sqft_month": 3.8,
+      "price_cagr_5y_pct": 10,
+      "gross_rental_yield_pct": 3,
+      "livability_score": 7,
+      "supply_risk": "high",
+      "key_builders": [
+        "Prestige",
+        "Sobha",
+        "Godrej Properties",
+        "Assetz",
+        "Shriram Properties"
+      ],
+      "upcoming_infra": [
+        {
+          "name": "Sarjapur – Hebbal Metro (Phase 3A, Red Line)",
+          "type": "metro",
+          "expected_year": 2031,
+          "status": "approved"
+        },
+        {
+          "name": "Peripheral Ring Road (PRR)",
+          "type": "expressway",
+          "expected_year": 2030,
+          "status": "approved"
+        },
+        {
+          "name": "Wipro / RGA Tech Park office expansion",
+          "type": "it_hub",
+          "expected_year": 2026,
+          "status": "under_construction"
+        }
+      ],
+      "notes": "Large villa/plot and apartment supply; groundwater dependence and tanker water common in outer stretches."
+    },
+    {
+      "city": "Bengaluru",
+      "state": "Karnataka",
+      "locality": "Hebbal",
+      "slug": "hebbal",
+      "avg_price_sqft": 14500,
+      "avg_2bhk_rent": 38000,
+      "avg_3bhk_rent": 55000,
+      "typical_2bhk_sqft": 1250,
+      "typical_3bhk_sqft": 1800,
+      "avg_plot_price_sqft": null,
+      "maintenance_per_sqft_month": 4.5,
+      "price_cagr_5y_pct": 9,
+      "gross_rental_yield_pct": 2.52,
+      "livability_score": 8,
+      "supply_risk": "low",
+      "key_builders": [
+        "Embassy",
+        "Brigade",
+        "Godrej Properties",
+        "Prestige",
+        "Total Environment"
+      ],
+      "upcoming_infra": [
+        {
+          "name": "Blue Line (Central Silk Board – KIA Airport) via Hebbal",
+          "type": "metro",
+          "expected_year": 2027,
+          "status": "under_construction"
+        },
+        {
+          "name": "Pink Line (Kalena Agrahara – Nagawara)",
+          "type": "metro",
+          "expected_year": 2026,
+          "status": "under_construction"
+        },
+        {
+          "name": "Hebbal flyover loop and tunnel road proposal",
+          "type": "expressway",
+          "expected_year": 2029,
+          "status": "proposed"
+        }
+      ],
+      "notes": "Airport-corridor gateway near Manyata Tech Park; limited land keeps supply tight."
+    },
+    {
+      "city": "Bengaluru",
+      "state": "Karnataka",
+      "locality": "Electronic City",
+      "slug": "electronic-city",
+      "avg_price_sqft": 7000,
+      "avg_2bhk_rent": 22000,
+      "avg_3bhk_rent": 30000,
+      "typical_2bhk_sqft": 1150,
+      "typical_3bhk_sqft": 1550,
+      "avg_plot_price_sqft": 5000,
+      "maintenance_per_sqft_month": 3.2,
+      "price_cagr_5y_pct": 7,
+      "gross_rental_yield_pct": 3.28,
+      "livability_score": 6.8,
+      "supply_risk": "medium",
+      "key_builders": [
+        "Shriram Properties",
+        "Prestige",
+        "Sobha",
+        "Mahindra Lifespaces"
+      ],
+      "upcoming_infra": [
+        {
+          "name": "Yellow Line (RV Road – Bommasandra)",
+          "type": "metro",
+          "expected_year": 2025,
+          "status": "operational"
+        },
+        {
+          "name": "Satellite Town Ring Road (STRR)",
+          "type": "expressway",
+          "expected_year": 2027,
+          "status": "under_construction"
+        }
+      ],
+      "notes": "Value IT corridor with good rental yield; newly opened Yellow Line is a near-term rental tailwind."
+    },
+    {
+      "city": "Mumbai",
+      "state": "Maharashtra",
+      "locality": "Thane West",
+      "slug": "thane-west",
+      "avg_price_sqft": 16000,
+      "avg_2bhk_rent": 32000,
+      "avg_3bhk_rent": 48000,
+      "typical_2bhk_sqft": 750,
+      "typical_3bhk_sqft": 1100,
+      "avg_plot_price_sqft": null,
+      "maintenance_per_sqft_month": 5.5,
+      "price_cagr_5y_pct": 8,
+      "gross_rental_yield_pct": 3.2,
+      "livability_score": 7.6,
+      "supply_risk": "medium",
+      "key_builders": [
+        "Lodha",
+        "Hiranandani",
+        "Piramal Realty",
+        "Kalpataru",
+        "Dosti"
+      ],
+      "upcoming_infra": [
+        {
+          "name": "Metro Line 4 (Wadala – Kasarvadavali)",
+          "type": "metro",
+          "expected_year": 2026,
+          "status": "under_construction"
+        },
+        {
+          "name": "Thane – Borivali twin tunnel",
+          "type": "expressway",
+          "expected_year": 2028,
+          "status": "under_construction"
+        },
+        {
+          "name": "Thane Coastal Road",
+          "type": "expressway",
+          "expected_year": 2028,
+          "status": "approved"
+        }
+      ],
+      "notes": "Self-sufficient suburb with strong social infra; 2BHK carpet sizes are compact (Mumbai carpet-area norms)."
+    },
+    {
+      "city": "Mumbai",
+      "state": "Maharashtra",
+      "locality": "Navi Mumbai – Ulwe",
+      "slug": "navi-mumbai-ulwe",
+      "avg_price_sqft": 11000,
+      "avg_2bhk_rent": 20000,
+      "avg_3bhk_rent": 28000,
+      "typical_2bhk_sqft": 700,
+      "typical_3bhk_sqft": 1050,
+      "avg_plot_price_sqft": null,
+      "maintenance_per_sqft_month": 3.5,
+      "price_cagr_5y_pct": 12,
+      "gross_rental_yield_pct": 3.12,
+      "livability_score": 6.8,
+      "supply_risk": "high",
+      "key_builders": [
+        "Godrej Properties",
+        "Hiranandani",
+        "Paradise Group",
+        "Tata Housing"
+      ],
+      "upcoming_infra": [
+        {
+          "name": "Navi Mumbai International Airport (Phase 1)",
+          "type": "airport",
+          "expected_year": 2025,
+          "status": "operational"
+        },
+        {
+          "name": "Atal Setu (MTHL)",
+          "type": "expressway",
+          "expected_year": 2024,
+          "status": "operational"
+        },
+        {
+          "name": "Navi Mumbai Metro Line 1 extensions",
+          "type": "metro",
+          "expected_year": 2027,
+          "status": "approved"
+        }
+      ],
+      "notes": "Airport-led growth node; lots of fresh supply and still-developing social infrastructure."
+    },
+    {
+      "city": "Mumbai",
+      "state": "Maharashtra",
+      "locality": "Powai",
+      "slug": "powai",
+      "avg_price_sqft": 26000,
+      "avg_2bhk_rent": 55000,
+      "avg_3bhk_rent": 80000,
+      "typical_2bhk_sqft": 800,
+      "typical_3bhk_sqft": 1200,
+      "avg_plot_price_sqft": null,
+      "maintenance_per_sqft_month": 7,
+      "price_cagr_5y_pct": 6,
+      "gross_rental_yield_pct": 3.17,
+      "livability_score": 8.6,
+      "supply_risk": "low",
+      "key_builders": [
+        "Hiranandani",
+        "L&T Realty",
+        "Kalpataru",
+        "Runwal"
+      ],
+      "upcoming_infra": [
+        {
+          "name": "Metro Line 6 (Swami Samarth Nagar – Vikhroli)",
+          "type": "metro",
+          "expected_year": 2027,
+          "status": "under_construction"
+        },
+        {
+          "name": "Goregaon – Mulund Link Road (GMLR) tunnel",
+          "type": "expressway",
+          "expected_year": 2029,
+          "status": "under_construction"
+        }
+      ],
+      "notes": "Premium established micro-market; low yields but resilient demand from Hiranandani office cluster."
+    },
+    {
+      "city": "Mumbai",
+      "state": "Maharashtra",
+      "locality": "Mira Road",
+      "slug": "mira-road",
+      "avg_price_sqft": 13500,
+      "avg_2bhk_rent": 25000,
+      "avg_3bhk_rent": 35000,
+      "typical_2bhk_sqft": 700,
+      "typical_3bhk_sqft": 1050,
+      "avg_plot_price_sqft": null,
+      "maintenance_per_sqft_month": 4.5,
+      "price_cagr_5y_pct": 7,
+      "gross_rental_yield_pct": 3.17,
+      "livability_score": 6.5,
+      "supply_risk": "medium",
+      "key_builders": [
+        "Raymond Realty",
+        "JP Infra",
+        "Sunteck",
+        "Rustomjee"
+      ],
+      "upcoming_infra": [
+        {
+          "name": "Metro Line 9 (Dahisar – Mira Bhayandar)",
+          "type": "metro",
+          "expected_year": 2026,
+          "status": "under_construction"
+        },
+        {
+          "name": "Versova – Bhayandar Coastal Road extension",
+          "type": "expressway",
+          "expected_year": 2030,
+          "status": "approved"
+        }
+      ],
+      "notes": "Affordable western-suburb alternative; Metro 9 commissioning is the key near-term trigger."
+    },
+    {
+      "city": "Hyderabad",
+      "state": "Telangana",
+      "locality": "Gachibowli",
+      "slug": "gachibowli",
+      "avg_price_sqft": 11000,
+      "avg_2bhk_rent": 32000,
+      "avg_3bhk_rent": 45000,
+      "typical_2bhk_sqft": 1300,
+      "typical_3bhk_sqft": 1850,
+      "avg_plot_price_sqft": null,
+      "maintenance_per_sqft_month": 4,
+      "price_cagr_5y_pct": 9,
+      "gross_rental_yield_pct": 2.69,
+      "livability_score": 8.2,
+      "supply_risk": "medium",
+      "key_builders": [
+        "My Home",
+        "Aparna",
+        "Prestige",
+        "Rajapushpa",
+        "Phoenix"
+      ],
+      "upcoming_infra": [
+        {
+          "name": "Hyderabad Metro Airport Express (Raidurg – Shamshabad)",
+          "type": "metro",
+          "expected_year": 2029,
+          "status": "approved"
+        },
+        {
+          "name": "SRDP flyover/underpass package (Gachibowli–Kondapur)",
+          "type": "expressway",
+          "expected_year": 2026,
+          "status": "under_construction"
+        }
+      ],
+      "notes": "Core of HITEC City/Financial District job cluster; deep rental pool from IT/GCC employees."
+    },
+    {
+      "city": "Hyderabad",
+      "state": "Telangana",
+      "locality": "Kokapet",
+      "slug": "kokapet",
+      "avg_price_sqft": 12500,
+      "avg_2bhk_rent": 35000,
+      "avg_3bhk_rent": 50000,
+      "typical_2bhk_sqft": 1400,
+      "typical_3bhk_sqft": 2000,
+      "avg_plot_price_sqft": 9000,
+      "maintenance_per_sqft_month": 4.5,
+      "price_cagr_5y_pct": 15,
+      "gross_rental_yield_pct": 2.4,
+      "livability_score": 7.8,
+      "supply_risk": "high",
+      "key_builders": [
+        "My Home",
+        "Rajapushpa",
+        "Prestige",
+        "Lodha",
+        "Phoenix"
+      ],
+      "upcoming_infra": [
+        {
+          "name": "Neopolis layout / Financial District expansion",
+          "type": "commercial_hub",
+          "expected_year": 2027,
+          "status": "under_construction"
+        },
+        {
+          "name": "Hyderabad Metro Airport Express (via Kokapet)",
+          "type": "metro",
+          "expected_year": 2029,
+          "status": "approved"
+        },
+        {
+          "name": "Outer Ring Road (ORR) interchanges",
+          "type": "expressway",
+          "expected_year": 2024,
+          "status": "operational"
+        }
+      ],
+      "notes": "Luxury high-rise cluster with very large launch volumes; oversupply risk if absorption slows."
+    },
+    {
+      "city": "Hyderabad",
+      "state": "Telangana",
+      "locality": "Kompally",
+      "slug": "kompally",
+      "avg_price_sqft": 6500,
+      "avg_2bhk_rent": 18000,
+      "avg_3bhk_rent": 25000,
+      "typical_2bhk_sqft": 1250,
+      "typical_3bhk_sqft": 1700,
+      "avg_plot_price_sqft": 4200,
+      "maintenance_per_sqft_month": 3,
+      "price_cagr_5y_pct": 8,
+      "gross_rental_yield_pct": 2.66,
+      "livability_score": 6.9,
+      "supply_risk": "medium",
+      "key_builders": [
+        "Aparna",
+        "Ramky",
+        "Prestige",
+        "Gowra"
+      ],
+      "upcoming_infra": [
+        {
+          "name": "Paradise – Medchal elevated corridor",
+          "type": "expressway",
+          "expected_year": 2028,
+          "status": "approved"
+        },
+        {
+          "name": "Metro Phase 2B extension towards Medchal",
+          "type": "metro",
+          "expected_year": 2031,
+          "status": "proposed"
+        }
+      ],
+      "notes": "Affordable north-Hyderabad suburb; growth depends on the elevated corridor."
+    },
+    {
+      "city": "Pune",
+      "state": "Maharashtra",
+      "locality": "Hinjewadi",
+      "slug": "hinjewadi",
+      "avg_price_sqft": 8200,
+      "avg_2bhk_rent": 23000,
+      "avg_3bhk_rent": 32000,
+      "typical_2bhk_sqft": 1000,
+      "typical_3bhk_sqft": 1400,
+      "avg_plot_price_sqft": null,
+      "maintenance_per_sqft_month": 3.5,
+      "price_cagr_5y_pct": 7,
+      "gross_rental_yield_pct": 3.37,
+      "livability_score": 6.8,
+      "supply_risk": "high",
+      "key_builders": [
+        "Kolte Patil",
+        "VTP Realty",
+        "Godrej Properties",
+        "Mahindra Lifespaces",
+        "Pharande"
+      ],
+      "upcoming_infra": [
+        {
+          "name": "Pune Metro Line 3 (Hinjewadi – Shivajinagar)",
+          "type": "metro",
+          "expected_year": 2026,
+          "status": "under_construction"
+        },
+        {
+          "name": "Pune Ring Road (PMRDA/MSRDC)",
+          "type": "expressway",
+          "expected_year": 2029,
+          "status": "approved"
+        }
+      ],
+      "notes": "Rajiv Gandhi Infotech Park drives rentals; chronic traffic congestion until Metro Line 3 opens."
+    },
+    {
+      "city": "Pune",
+      "state": "Maharashtra",
+      "locality": "Kharadi",
+      "slug": "kharadi",
+      "avg_price_sqft": 11000,
+      "avg_2bhk_rent": 28000,
+      "avg_3bhk_rent": 40000,
+      "typical_2bhk_sqft": 1050,
+      "typical_3bhk_sqft": 1450,
+      "avg_plot_price_sqft": null,
+      "maintenance_per_sqft_month": 4,
+      "price_cagr_5y_pct": 9,
+      "gross_rental_yield_pct": 2.91,
+      "livability_score": 7.8,
+      "supply_risk": "medium",
+      "key_builders": [
+        "Panchshil",
+        "Gera",
+        "Kolte Patil",
+        "Godrej Properties"
+      ],
+      "upcoming_infra": [
+        {
+          "name": "Ramwadi – Wagholi Metro extension",
+          "type": "metro",
+          "expected_year": 2029,
+          "status": "approved"
+        },
+        {
+          "name": "Kharadi – Shivane riverside road",
+          "type": "expressway",
+          "expected_year": 2027,
+          "status": "under_construction"
+        },
+        {
+          "name": "EON / World Trade Center IT park expansions",
+          "type": "it_hub",
+          "expected_year": 2026,
+          "status": "under_construction"
+        }
+      ],
+      "notes": "Established east-Pune office hub; good rental depth and newer premium stock."
+    },
+    {
+      "city": "Pune",
+      "state": "Maharashtra",
+      "locality": "Wakad",
+      "slug": "wakad",
+      "avg_price_sqft": 8800,
+      "avg_2bhk_rent": 24000,
+      "avg_3bhk_rent": 33000,
+      "typical_2bhk_sqft": 1000,
+      "typical_3bhk_sqft": 1400,
+      "avg_plot_price_sqft": null,
+      "maintenance_per_sqft_month": 3.5,
+      "price_cagr_5y_pct": 8,
+      "gross_rental_yield_pct": 3.27,
+      "livability_score": 7.3,
+      "supply_risk": "medium",
+      "key_builders": [
+        "Kolte Patil",
+        "Kasturi",
+        "Pride",
+        "Vilas Javdekar"
+      ],
+      "upcoming_infra": [
+        {
+          "name": "Pune Metro Line 3 (Hinjewadi – Shivajinagar), Wakad stations",
+          "type": "metro",
+          "expected_year": 2026,
+          "status": "under_construction"
+        },
+        {
+          "name": "Mumbai–Pune Expressway / Bhumkar Chowk underpass",
+          "type": "expressway",
+          "expected_year": 2025,
+          "status": "operational"
+        }
+      ],
+      "notes": "Residential catchment for Hinjewadi with better social infra; balanced supply."
+    }
+  ]
+}
