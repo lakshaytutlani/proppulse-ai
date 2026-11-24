@@ -81,7 +81,7 @@ const JSON_SCHEMA = obj({
 /* ------------------------------------------------------------------ */
 
 function buildSystemPrompt(markets: Market[], metrics: LocalityMetrics[]): string {
-  return `You are PropPulse AI, a sober, research-grade real estate investment analyst for Indian metro micro-markets.
+  return `You are LocalityLens, a sober, research-grade real estate investment analyst for Indian metro micro-markets.
 
 GROUNDING RULES
 - Use ONLY the figures in <market_data> and <computed_metrics> for prices, rents, yields, EMIs and infrastructure years. Never invent a number that is not there.

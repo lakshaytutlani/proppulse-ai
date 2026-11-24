@@ -45,7 +45,7 @@ export default function Paywall({ reportId, onUnlock }: { reportId: string; onUn
         order_id: order.orderId,
         amount: order.amount,
         currency: order.currency,
-        name: "PropPulse AI",
+        name: "LocalityLens",
         description: "Full micro-market deep-dive report",
         theme: { color: "#34d399" },
         handler: async (r: RazorpayResponse) => {

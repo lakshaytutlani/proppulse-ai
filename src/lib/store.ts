@@ -34,8 +34,8 @@ function db(): SupabaseClient | null {
   return supabase;
 }
 
-const g = globalThis as unknown as { __proppulseMem?: Map<string, Row> };
-const mem = (g.__proppulseMem ??= new Map<string, Row>());
+const g = globalThis as unknown as { __localityLensMem?: Map<string, Row> };
+const mem = (g.__localityLensMem ??= new Map<string, Row>());
 
 function toRecord(r: Row): ReportRecord {
   return {

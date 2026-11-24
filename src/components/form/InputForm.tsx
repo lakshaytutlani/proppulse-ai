@@ -206,7 +206,7 @@ export default function InputForm({ options }: { options: Option[] }) {
         </div>
         <div>
           <Label>Goal</Label>
-          <Segmented options={GOALS} value={goal} onChange={setGoal} label={(g) => GOAL_LABELS[g]} />
+          <Segmented options={GOALS} value={goal} onChange={setGoal} label={(g) => (g === "capital_appreciation" ? "Appreciation" : GOAL_LABELS[g])} />
         </div>
       </div>
 

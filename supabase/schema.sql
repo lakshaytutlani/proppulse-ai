@@ -1,4 +1,4 @@
--- PropPulse AI: reports table (run in Supabase SQL editor, free tier is fine)
+-- LocalityLens: reports table (run in Supabase SQL editor, free tier is fine)
 create extension if not exists "pgcrypto";
 
 create table if not exists public.reports (

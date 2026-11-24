@@ -1,6 +1,6 @@
-# PropPulse AI
+# LocalityLens
 
-AI Real Estate Investment & Rental Yield Copilot for Indian metros (Delhi NCR, Bengaluru, Mumbai, Hyderabad, Pune).
+Compare Indian micro-markets side by side: rents, yields, EMIs and infrastructure catalysts. AI Real Estate Investment & Rental Yield Copilot for Indian metros (Delhi NCR, Bengaluru, Mumbai, Hyderabad, Pune).
 Compare 2–3 micro-markets, get a free verdict, and unlock a ₹499 deep-dive via Razorpay.
 
 ## Stack (zero fixed cost)
